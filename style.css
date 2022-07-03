@@ -1,3 +1,8 @@
+body{
+    background: url("https://images.unsplash.com/photo-1656062470400-8b4137be5562?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=758&q=80");
+}
+
+
 h1{
     color: rgb(12, 6, 6);
     text-align: center;
@@ -10,6 +15,7 @@ h2{
     background: orange;
 }
 .para{
+    background: rgb(155, 152, 152);
     width: 75%;
     margin: 0 auto;
     border: 1px solid black;

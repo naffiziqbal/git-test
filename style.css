@@ -8,3 +8,14 @@ h2{
     color: navy;
     background: orange;
 }
+.para{
+    width: 75%;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 2%;
+}

@@ -26,3 +26,12 @@ h2{
     -o-border-radius: 20px;
     padding: 2%;
 }
+.blog{
+    background: #624935;
+    height: 500px;
+    width: 100%;
+}
+.blog p{
+    padding: 20px;
+    color: rgb(209, 209, 209);
+}

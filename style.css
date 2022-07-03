@@ -1,5 +1,15 @@
-body{
-    background: url("https://images.unsplash.com/photo-1656062470400-8b4137be5562?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=758&q=80");
+body, html {
+    height: 100%;
+  }
+.bg-img{
+  background-image:url("./img/valery-sysoev-cga7Rg8TUVE-unsplash.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(2px) ;
+  -webkit-filter: blur(2px) ;
+  height: 100%;
 }
 
 
@@ -15,7 +25,7 @@ h2{
     background: orange;
 }
 .para{
-    background: rgb(155, 152, 152);
+    background: rgba(155, 152, 152, 0.363);
     width: 75%;
     margin: 0 auto;
     border: 1px solid black;
@@ -27,11 +37,24 @@ h2{
     padding: 2%;
 }
 .blog{
-    background: #624935;
-    height: 500px;
+    background: #62493565;
+    height: 400px;
     width: 100%;
 }
 .blog p{
     padding: 20px;
     color: rgb(209, 209, 209);
+}
+.bg-content{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
 }

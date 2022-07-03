@@ -1,6 +1,12 @@
 body, html {
     height: 100%;
-  }
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
 .bg-img{
   background-image:url("./img/valery-sysoev-cga7Rg8TUVE-unsplash.jpg");
   height: 100%;
@@ -21,29 +27,32 @@ h1{
 
 h2{
     text-align: center;
-    color: navy;
-    background: orange;
+    color: rgb(38, 38, 43);
+    background: rgb(255, 196, 0);
 }
 .para{
+    font-size: 18px;
+    color: rgb(211, 211, 211);
     background: rgba(155, 152, 152, 0.363);
-    width: 75%;
     margin: 0 auto;
-    border: 1px solid black;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    border: 1px solid rgb(114, 114, 114);
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
     padding: 2%;
 }
 .blog{
-    background: #62493565;
-    height: 400px;
+
+    background: #96969665;
     width: 100%;
+    height: 100%;
 }
 .blog p{
+    font-size: 18px;
     padding: 20px;
-    color: rgb(209, 209, 209);
+    color: rgba(255, 0, 0, 0.904);
 }
 .bg-content{
     color: rgb(0, 0, 0);
